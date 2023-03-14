@@ -1,41 +1,64 @@
 @font-face {
-    font-family: Hanson-Bold;
-    src: url("../recursos/fuentes/Hanson-Bold.otf");
+    font-family: Hanson-Bold ;
+    src: url(../recursos/fuentes/Hanson-Bold.otf);
 }
 .cabecera
 {
+    z-index: 1;
+    position: fixed;
     width: 100%;
     height: 10vh;
-    background: linear-gradient(180deg,#000a23 0%, transparent 80%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cabecera_centrar
+.cabecera_center
 {
     width: 80%;
     height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.sec_cabecera
+.cabecera_item
 {
     height: 100%;
 }
 .logo
 {
     width: 40%;
-    background-color: red;
+    border: solid 1px black;
 }
-.menu_cabecera
+.menu
 {
     width: 50%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
 }
 .menu_item
 {
-    color: #ffffff;
-    font-family: Hanson-Bold;
+    color:#ffffff;
+    font-weight: bold;
+    animation: texto 5s infinite;
+}
+@keyframes texto 
+{
+    0%
+    {
+        text-shadow: 0 0 60px rgb(255, 255, 255),0 0 35px rgb(255, 255, 255),0 0 20px rgb(255, 255, 255);
+    }  
+    25%
+    {
+        text-shadow: 0 0 40px rgb(255, 255, 255),0 0 15px rgb(255, 255, 255),0 0 0px rgb(255, 255, 255);
+    } 
+    50%
+    {
+        text-shadow: 0 0 70px rgb(255, 255, 255),0 0 45px rgb(255, 255, 255),0 0 30px rgb(255, 255, 255);
+    } 
+    75%
+    {
+        text-shadow: 0 0 50px rgb(255, 255, 255),0 0 25px rgb(255, 255, 255),0 0 10px rgb(255, 255, 255);
+    }   
 }
