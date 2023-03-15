@@ -1,0 +1,15 @@
+@media screen and (max-width:1000px) 
+{
+    /*cabecera y slider*/
+    .menu_item 
+    {display: none;}
+    .cabecera_center
+    {
+        width: 98%;
+    }
+    .button-menu ,.sliderMenu
+    {
+        display: flex;
+    }
+    /**/
+}

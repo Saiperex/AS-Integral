@@ -8,6 +8,9 @@
     <!--ESTILOS-->
     <link rel="stylesheet" href="css/init.css">
     <link rel="stylesheet" href="css/cabecera.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <link rel="stylesheet" href="css/resp.css">
     <!--Fonts-->
     <!--META-->
     <meta charset="UTF-8">
@@ -19,7 +22,13 @@
 <body>
     <header class="cabecera">
         <div class="cabecera_center">
-            <div class="cabecera_item logo"></div>
+            <div class="cabecera_item logo">
+                <div class="button-menu">
+                    <div class="line luno"></div>
+                    <div class="line ldos"></div>
+                    <div class="line ltres"></div>
+                </div>
+            </div>
             <nav class="cabecera_item menu">
                 <li class="menu_item">INICIO <svg></svg></li>
                 <li class="menu_item">OBRAS Y SERVICIOS<svg></svg></li>
@@ -30,6 +39,12 @@
     </header>
 
     <main class="principal">
+        <nav class="sliderMenu">
+            <li class="menu_item"></li>
+            <li class="menu_item"></li>
+            <li class="menu_item"></li>
+            <li class="menu_item"></li>
+        </nav>
         <section class="sec inicio">
             <div class="cont"></div>
         </section>
@@ -46,6 +61,7 @@
     <footer class="pie">
         <li>PAGINA DESARROLLADA POR <a href="">AGNIS - SOLUCIONES WEB &copy;</a></li>
     </footer>
+    <script src="js/slider.js"></script>
 </body>
 
 </html>

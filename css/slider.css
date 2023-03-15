@@ -1,0 +1,44 @@
+.button-menu
+{
+    width: 9vh;
+    height: 9vh;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    display: none;
+}
+.line
+{
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+    transition: 0.4s;
+}
+.change .luno
+{
+    transform: translate(0, 310%) rotate(-45deg);
+}
+.change .ldos {opacity: 0;}
+.change .ltres 
+{
+    transform: translate(0, -350%) rotate(45deg);
+}
+.button-menu:hover .line
+{
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+}
+.sliderMenu
+{
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 250px;
+    height: 90vh;
+    background: linear-gradient(0deg,#007414,#089803) ;
+    opacity: 30%;
+    transition: left 500ms ease-in-out;
+    display: none;
+}
