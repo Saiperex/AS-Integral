@@ -38,7 +38,42 @@
     width: 250px;
     height: 90vh;
     background: linear-gradient(0deg,#007414,#089803) ;
-    opacity: 30%;
+    opacity: 50%;
     transition: left 500ms ease-in-out;
     display: none;
+    justify-content: center;
+    align-items: flex-start;
+}
+.sliderMenu-d
+{
+    width: 80%;
+    height: 60%;
+}
+.sliderMenu-d svg
+{
+    position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fefefe;
+  transform-origin: center bottom;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+.menu_itemS
+{
+    font-family: SCHABO;
+    font-size: 4vh;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    transition: transform 500ms ease-in-out;
+    cursor: pointer;
+}
+.menu_itemS:hover svg
+{
+    transform: scaleX(1);
 }
