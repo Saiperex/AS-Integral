@@ -1,0 +1,17 @@
+.inicio_div
+{
+    display: flex;
+}
+.sec_inicio
+{
+    width: 50%;
+    height: 100%;
+}
+.inicio_logo
+{
+    background-image: url("../recursos/imagenes/as\ logo\ +\ grande\(2\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter:drop-shadow(10px 10px 10px)
+}
