@@ -7,3 +7,20 @@
     padding: 0;
     position: relative;
 }
+.cuerpo
+{
+    z-index: -1;
+    background-color: #fefefe;
+    transition: background 500ms ease-in-out;
+}
+.absolutoMenu
+{
+    position: fixed;
+    z-index: 1;
+    width: 50%;
+    height: 10vh;
+    background-color: aqua;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 10px;
+}

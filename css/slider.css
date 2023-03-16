@@ -2,7 +2,7 @@
 {
     width: 9vh;
     height: 9vh;
-    background-color: #000;
+    background-color: #3b3636;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -32,12 +32,14 @@
 }
 .sliderMenu
 {
-    position: absolute;
+    z-index: 1;
+    position: fixed;
     top: 10vh;
     left: 0;
     width: 250px;
     height: 90vh;
-    background: rgba(8, 152, 3, 0.5) ;
+    background: rgba(66, 66, 66, 0.5);
+    backdrop-filter: blur(3px);
     transition: left 500ms ease-in-out;
     display: none;
     justify-content: center;
@@ -48,14 +50,15 @@
     width: 80%;
     height: 60%;
 }
-.sliderMenu-d svg
+.svgSlider
 {
+
     position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 2px;
-  background-color: #fefefe;
+  background-color: #000000;
   transform-origin: center bottom;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
