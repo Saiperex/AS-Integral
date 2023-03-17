@@ -23,4 +23,5 @@
     top: 0;
     right: 0;
     border-bottom-left-radius: 10px;
+    transition: background-color 500ms ease-in-out;
 }

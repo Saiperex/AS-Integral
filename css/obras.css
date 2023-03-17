@@ -1,0 +1,36 @@
+.cont_obras
+{
+    display: flex;
+    background-color: #E4E4E4;
+    overflow: hidden;
+}
+.sector_obras
+{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sector_obras video
+{
+    height: 100%;
+}
+.absoluto2
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: linear-gradient(75deg,#f6f6f6 60%, transparent 0%);
+}
+.sec_obras2
+{
+    width: 50%;
+    height: 100%;
+}
+.texto_obras
+{
+    transition: background-color 500ms ease-in-out;
+}

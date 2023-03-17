@@ -18,3 +18,16 @@
 {
     background-color: #fff;
 }
+.absoluto1Oscuro
+{
+    background-color: rgb(66, 66, 66);
+}
+.absoluto2black
+{
+    background: linear-gradient(75deg,rgb(66, 66, 66) 60%, transparent 0%);
+
+}
+.texto_obrasColor
+{
+    background-color: rgb(66, 66, 66);
+}
