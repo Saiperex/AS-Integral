@@ -57,4 +57,12 @@
     {
         transition: background-color 500ms ease-in-out;
     }
+    .texto_obras h2
+    {
+        font-size: 4.3vh;
+    }
+    .texto_obras h4
+    {
+        font-size: 3vh;
+    }
 }
