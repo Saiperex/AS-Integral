@@ -7,6 +7,9 @@ var svgsS=document.querySelectorAll(".svgSlider")
 var absoluto1=document.querySelector(".absolutoMenu")
 var absoluto2=document.querySelector(".absoluto2")
 var texto_obras=document.querySelector(".texto_obras")
+var tarjetas=document.querySelectorAll(".tarjeta")
+var titulObras=document.querySelector(".texto_obras h2")
+var subObras=document.querySelector(".texto_obras h4")
 botonLight.addEventListener("click", function()
 {
     texto_obras.classList.toggle("texto_obrasColor")
@@ -14,6 +17,8 @@ botonLight.addEventListener("click", function()
     absoluto2.classList.toggle("absoluto2black")
     botonLight.classList.toggle("focoApagado")
     body.classList.toggle("cuerpoNegro")
+    titulObras.classList.toggle("menuItemsDark")
+    subObras.classList.toggle("menuItemsDark")
     for(let i=0;i<menuItem.length;i++)
     {
         menuItem[i].classList.toggle("menuItemsDark")
@@ -29,5 +34,9 @@ botonLight.addEventListener("click", function()
     for(let i=0;i<svgsS.length;i++)
     {
         svgsS[i].classList.toggle("svgsDark")
+    }
+    for(let i =0;i<tarjetas.length;i++)
+    {
+        tarjetas[i].classList.toggle("tarjetaDark")
     }
 })

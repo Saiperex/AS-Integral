@@ -52,4 +52,9 @@
     {
         background: linear-gradient(180deg,transparent 50%, transparent 0%);
     }
+    
+    .texto_obras
+    {
+        transition: background-color 500ms ease-in-out;
+    }
 }

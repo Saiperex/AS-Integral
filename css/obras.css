@@ -32,5 +32,48 @@
 }
 .texto_obras
 {
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cont_tarjetas
+{
+    width: 90%;
+    height: 70%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+.tarjeta
+{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    border: solid 1px;
+    width: 90%;
+    height: 90%;
+    border-radius: 13px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: SCHABO;
     transition: background-color 500ms ease-in-out;
+}
+.tarjeta img{
+    width: 30%;
+}
+.texto_obras h2
+{
+    padding-left: 10%;
+    font-family: SCHABO;
+    font-weight: lighter;
+    font-size: 4.5vw;
+    text-transform: uppercase;
+    transition: color 500ms ease-in-out;
+}
+.texto_obras h4
+{
+    font-weight: bold;
+    font-size: 2vw;
+    transition: color 500ms ease-in-out;
 }
