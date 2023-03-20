@@ -89,4 +89,24 @@
         font-size: 2vh;
         text-align: center;
     }
+    /**/
+    .cont_contacto 
+    {
+        flex-direction: column;
+    }
+    .parte_Contacto
+    {
+        width: 100%;
+        height: 50%;
+    }
+    form
+    {
+        width: 70%;
+        height: 90%;
+    }
+    .contenedor_redes
+    {
+        width: 80%;
+        height: 50%;
+    }
 }
