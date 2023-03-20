@@ -1,0 +1,86 @@
+@font-face {
+    font-family: GoshaSans-Regular;
+    src: url("../recursos/fuentes/GoshaSans-Regular.otf");
+}
+.clientes
+{
+    background-color: aqua;
+}
+.cont_clientes
+{ 
+    background-color:#fefefe;
+   height: 100%;
+   clip-path: polygon(0% 0%, 50% 10%, 100% 0%, 100% 100%, 0% 100%);
+   display: flex;
+   align-items: flex-end;
+}
+.clientes_sec
+{ 
+
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    border: solid 1px;
+}
+.secciones_clientes
+{
+    width: 50%;
+    height: 100%;
+}
+.galeria 
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.galeria  li
+{
+    display: flex;
+    width: 98%;
+    height: 98%;
+    align-self: center;
+    justify-self: center;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.galeria  li img
+{
+    height: 100%;
+    border: solid 1px #000;
+}
+/**/
+.clientes_texto
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.clientes_texto h2
+{
+    font-family: SCHABO;
+    font-size: 7vh;
+    margin: 10px 0;
+}
+.clientes_texto p
+{
+    font-size: 3vh;
+    font-family: GoshaSans-Regular;
+    margin: 10px 0;
+}
+.clientes_texto legend
+{
+    font-size: 2vh;
+    font-family: GoshaSans-Regular;
+    margin: 10px 0;
+    align-self: center;
+}
+.clientes_texto button
+{
+    padding: 30px;
+    align-self: center;
+    font-family: GoshaSans-Regular;
+    background-color: #000;
+    color: #fff;
+}

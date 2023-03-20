@@ -12,12 +12,15 @@
     <link rel="stylesheet" href="css/sections.css">
     <link rel="stylesheet" href="css/inicio.css">
     <link rel="stylesheet" href="css/obras.css">
+    <link rel="stylesheet" href="css/clientes.css">
+    <link rel="stylesheet" href="css/contacto.css">
 
     <link rel="stylesheet" href="css/mode.css">
     <link rel="stylesheet" href="css/resp.css">
 
     <!--ICONS-->
     <script src="https://kit.fontawesome.com/c8bf7962f3.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="recursos/imagenes/LOGO-CELESTE-MARINO.png" type="image/x-icon">
     <!--META-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,7 +48,7 @@
         <i class="fa-regular fa-lightbulb"></i>
     </header>
     <div class="absolutoMenu">
-                    
+
     </div>
     <main class="principal">
         <nav class="sliderMenu">
@@ -56,7 +59,7 @@
                 <li class="menu_itemS">CONTACTO<svg class="svgSlider"></svg></li>
             </div>
         </nav>
-        
+
         <section class="sec inicio">
             <div class="cont cont_inicio">
                 <div class="inicio_cont_secciones">
@@ -65,7 +68,8 @@
                         <div class="cont1">
                             <div class="cont2">
                                 <div class="text">
-                                    <p>Somos una empresa especializada en ejecutar tu construccion, con todos los servicios que necesites</p>
+                                    <p>Somos una empresa especializada en ejecutar tu construccion, con todos los
+                                        servicios que necesites</p>
                                     <p>En las obras nuevas nos encargamos de la planificacion total.</p>
                                     <p>¡Llave en mano!</p>
                                     <p>Tambien llevamos a cambio tu ampliacion de la manera mas eficaz.</p>
@@ -76,6 +80,7 @@
                 </div>
             </div>
         </section>
+
         <section class="sec obras">
             <div class="cont cont_obras">
                 <div class="sector_obras obras_text"></div>
@@ -119,11 +124,52 @@
                 </div>
             </div>
         </section>
+
         <section class="sec clientes">
-            <div class="cont cont_clientes"></div>
+            <div class="cont cont_clientes">
+                <div class="clientes_sec">
+                    <div class="secciones_clientes galeria">
+                        <li><img src="recursos/imagenes/img1.jpg" alt="" srcset=""></li>
+                        <li><img src="recursos/imagenes/img2.jpg" alt="" srcset=""></li>
+                        <li><img src="recursos/imagenes/img3.jpg" alt="" srcset=""></li>
+                        <li><img src="recursos/imagenes/img4.jpg" alt="" srcset=""></li>
+                        <li><img src="recursos/imagenes/img5.jpg" alt="" srcset=""></li>
+                        <li><img src="recursos/imagenes/img6.jpg" alt="" srcset=""></li>
+                    </div>
+                    <div class="secciones_clientes clientes_texto">
+                        <h2>Clientes satisfechos, nuestra mayor satisfacción</h2>
+                        <p> nos enorgullecemos de proporcionar soluciones diseñadas a medida y adaptadas a las
+                            necesidades de cada cliente.</p>
+                        <legend>¡Únete a nuestra lista de clientes satisfechos hoy mismo!</legend>
+                        <button>MIRA NUESTROS TRABAJOS</button>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="sec contacto">
-            <div class="cont cont_contacto"></div>
+            <div class="cont cont_contacto">
+                <div class="parte_Contacto formulario">
+                    <form action="">
+                        <label for="select">EN QUE PODEMOS AYUDARTE</label>
+                        <select name="select" id="select">
+                            <option value="1">STEEL FRAMING</option>
+                            <option value="2">VIDEO VIGILANCIA</option>
+                            <option value="3">INST. AIRE ACONDICIONADOS</option>
+                            <option value="4">INST. TERMOTANQUES</option>
+                            <option value="5">INST. ELECTRICA</option>
+                            <option value="6">INST. PANELES SOLARES</option>
+                        </select>
+                        <label for="nombre">TU NOMBRE</label>
+                        <input type="text" name="nombre" id="nombre">
+                        <label for="email">CORREO ELECTRONICO</label>
+                        <input type="email" name="email" id="email">
+                        <label for="numero">TELEFONO</label>
+                        <input type="text" name="numero" id="numero">
+                        <button disabled="disabled">ENVIAR</button>
+                    </form>
+                </div>
+                <div class="parte_Contacto redes"></div>
+            </div>
         </section>
     </main>
     <footer class="pie">

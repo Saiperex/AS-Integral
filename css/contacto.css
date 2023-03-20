@@ -1,0 +1,48 @@
+.cont_contacto
+{
+    display: flex;
+}
+.parte_Contacto
+{
+    width: 50%;
+    height: 100%;
+}
+.formulario
+{
+    border-right: 1px solid;
+}
+.redes
+{
+    border-left: 1px solid;
+}
+.formulario
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 9%;
+    border-radius: 3%;
+    box-shadow: 10px 10px 10px 5px rgba(66, 66, 66, .7);
+}
+form label
+{
+    font-family: SCHABO;
+    font-weight: lighter;
+    font-size: 3vh;
+}
+form input, form select, form button
+{
+    font-family: SCHABO;
+    font-weight: lighter;
+    font-size: 3vh;
+}

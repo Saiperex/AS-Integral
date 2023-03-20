@@ -65,4 +65,28 @@
     {
         font-size: 3vh;
     }
+    /**/
+    .clientes_sec
+    {
+        flex-direction: column;
+    }
+    .secciones_clientes
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .clientes_texto h2 
+    {
+        font-size: 4vh;
+    }
+    .clientes_texto p
+    {
+        font-size: 2vh;
+        text-align: justify;
+    }
+    .clientes_texto legend 
+    {
+        font-size: 2vh;
+        text-align: center;
+    }
 }
