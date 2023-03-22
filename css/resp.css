@@ -109,4 +109,27 @@
         width: 80%;
         height: 50%;
     }
+    /*informacion*/
+    .divServiciosCard2 p
+    {
+        width: 95%;
+        font-size: 1.7vh;
+    }
+    .divServiciosCard2 h2 
+    {
+        font-size: 6vh;
+    }
+    .divServiciosCard2 h4
+    {
+        font-size: 2vh;
+    }
+    .divServiciosCard2 
+    {
+        width: 100%;
+    }
+    .divServiciosCard2 li
+    {
+        font-size: 1.5vh;
+        width: 45%;
+    }
 }
