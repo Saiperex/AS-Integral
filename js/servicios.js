@@ -183,12 +183,12 @@ function div1() {
     crearDiv("STEEL FRAMING", texto, framing, imagen)
 }
 function div2() {
-    const texto = "La instalación eléctrica es crucial para suministrar energía eléctrica a todos los sistemas y equipos eléctricos de un edificio, y debe ser segura, confiable y eficiente. En su sección de instalación eléctrica, ofrecen servicios profesionales de instalación, mantenimiento y reparación de sistemas eléctricos para todo tipo de edificaciones, cumpliendo con todas las normativas y estándares de seguridad eléctrica y utilizando materiales de alta calidad. También ofrecen servicios de instalación de sistemas de iluminación LED y asesoramiento en la selección de equipos y sistemas eléctricos eficientes y rentables. En resumen, si necesitas una instalación eléctrica segura y eficiente, contáctalos para obtener servicios profesionales."
+    const texto = "Creamos y ejecutamos proyectos eléctricos nuevos y ampliaciones, domiciliarios y comerciales, con materiales que cumplen las normas IRAM correspondientes, garantizando la seguridad en la zona de aplicación, entregamos planos y certificaciones con garantías de los trabajos realizados."
     const imagen = "url(recursos/imagenes/panel.jpg)"
     crearDiv("ELECTRICIDAD", texto, electricidad, imagen)
 }
 function div3() {
-    const texto = "La instalación de un sistema de aire acondicionado es fundamental para garantizar el confort en los ambientes. En su sección de instalación de aire acondicionado, ofrecen un servicio completo que incluye la selección del equipo adecuado, instalación y puesta en marcha. Su equipo de expertos trabaja bajo las buenas prácticas de refrigeración para garantizar la eficiencia y durabilidad del equipo. También se enfocan en detectar fugas de gas y realizan un proceso de vacío antes de cargar los gases necesarios. Ofrecen garantía sobre todos los trabajos realizados y aseguran un sistema de aire acondicionado de calidad y eficiente para garantizar el confort de sus clientes."
+    const texto = "Instalación, mantenimiento y reparación de sistemas de climatizacion domiciliarios y comerciales, además detectamos fugas de gas, las solucionamos y cargamos el refrigerante adecuado para lograr el funcionamiento más eficaz del equipo con el fin de climatizar el lugar a la temperatura deseada, trabajamos con técnicos matriculados lo que nos permite brindar garantía de todos nuestros trabajos."
     const imagen = "url(recursos/imagenes/aire.jpg)"
     crearDiv("AIRES ACONDICIONADOS", texto, aire, imagen)
 }
@@ -198,7 +198,7 @@ function div4() {
     crearDiv("CAMARAS DE SEGURIDAD", texto, seguridad, imagen)
 }
 function div5() {
-    const texto = "La instalación de termotanques solares utiliza la energía solar para calentar el agua en hogares o establecimientos comerciales. Los paneles solares capturan la energía del sol y la transfieren al tanque de almacenamiento donde se guarda el agua caliente. Esta alternativa es más amigable con el medio ambiente y ahorra energía. Además, estos sistemas son duraderos y requieren poco mantenimiento. La instalación del sistema incluye la evaluación del lugar, la selección del sistema adecuado, la colocación de los paneles y la conexión al tanque y a la red de agua. Es esencial contar con personal capacitado y experimentado para garantizar una instalación segura y eficiente."
+    const texto = "La instalación de termotanques solares utiliza la energía solar para calentar el agua en hogares o establecimientos comerciales. Los paneles solares capturan la energía del sol y la transfieren al tanque de almacenamiento donde se guarda el agua caliente. Esta alternativa es más amigable con el medio ambiente y ahorra un 80% de energia. Además, estos sistemas son duraderos y requieren poco mantenimiento. La instalación del sistema incluye la evaluación del lugar, la selección del sistema adecuado, la colocación de los paneles y la conexión al tanque y a la red de agua. Es esencial contar con personal capacitado y experimentado para garantizar una instalación segura y eficiente."
     const imagen = "url(recursos/imagenes/termo.jpg)"
     crearDiv("TERMOTANQUES SOLARES", texto, termotanque, imagen)
 }
