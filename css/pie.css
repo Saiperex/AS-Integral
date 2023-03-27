@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Anson-r3;
+    src: url("../recursos/fuentes/Anson-R3.otf");
+}
+.pie
+{
+    background-color: #000;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: monospace;
+}
+.pie a
+{
+    font-family: Anson-r3;
+    color: #fff;
+    font-size: 18px;
+}
