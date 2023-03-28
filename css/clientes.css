@@ -2,90 +2,69 @@
     font-family: GoshaSans-Regular;
     src: url("../recursos/fuentes/GoshaSans-Regular.otf");
 }
-.clientes
+.clientes 
 {
-    background-color: aqua;
+    align-items: flex-start;
+    transition:background-color 500ms ease-in-out ;
 }
-.cont_clientes
-{ 
-    background-color:#fefefe;
-   height: 100%;
-   clip-path: polygon(0% 0%, 50% 10%, 100% 0%, 100% 100%, 0% 100%);
-   display: flex;
-   align-items: flex-end;
-   transition: background-color 500ms ease-in-out;
-}
-.clientes_sec
-{ 
-
+.cont-clientes
+{
     width: 100%;
-    height: 90vh;
+    margin-top: 10vh;
+}
+.clientes_imagenes
+{
+    width: 100%;
     display: flex;
-}
-.secciones_clientes
-{
-    width: 50%;
-    height: 100%;
-}
-.galeria 
-{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,1fr);
-}
-.galeria  li
-{
-    display: flex;
-    width: 98%;
-    height: 98%;
-    align-self: center;
-    justify-self: center;
-    overflow: hidden;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
 }
-.galeria  li img
+.clientes_imagenes li
 {
-    height: 100%;
-    border: solid 1px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out;
+    margin: 2vh 0;
 }
-/**/
+.clientes_imagenes li.show {
+    opacity: 1;
+  }
+.clientes_imagenes li img
+{
+    width: 100%;
+}
+/*textos*/
 .clientes_texto
 {
-    padding: 20px;
+    width: 100%;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 1vh;
 }
-.clientes_texto h2
-{
+.clientes_texto h2 {
     font-family: SCHABO;
     font-weight: lighter;
     font-size: 7vh;
     margin: 10px 0;
     transition: color 500ms ease-in-out;
 }
-.clientes_texto p
-{
+.clientes_texto p {
     font-size: 3vh;
     font-family: GoshaSans-Regular;
     margin: 10px 0;
     transition: color 500ms ease-in-out;
 }
-.clientes_texto legend
-{
+.clientes_texto legend {
     font-size: 2vh;
     font-family: GoshaSans-Regular;
     margin: 10px 0;
     align-self: center;
     transition: color 500ms ease-in-out;
-}
-.btn-cliente
-{
-    padding: 30px;
-    align-self: center;
-    font-family: GoshaSans-Regular;
-    background-color: #000;
-    color: #fff;
-    transition: color 500ms ease-in-out,background-color 500ms ease-in-out;
 }
