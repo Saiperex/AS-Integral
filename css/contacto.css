@@ -36,15 +36,13 @@ form
 }
 form label
 {
-    font-family: SCHABO;
-    font-weight: lighter;
-    font-size: 3vh;
+    font-family: GOSHASANS;
+    font-size: 2vh;
 }
 form input, form select, form button
 {
-    font-family: SCHABO;
-    font-weight: lighter;
-    font-size: 3vh;
+    font-family: GOSHASANS;
+    font-size: 2vh;
 }
 .redes_cont
 {
