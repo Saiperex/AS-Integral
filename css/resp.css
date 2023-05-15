@@ -133,4 +133,15 @@
         font-size: 1.5vh;
         width: 45%;
     }
+    .splashPane
+    {
+        width: 90vw;
+        height: 50vh;
+        top: 25vh;
+        box-shadow: 10px  10px  10px  10px  rgba(0, 0, 0, 0.7);
+    }
+    .fa-square-xmark
+    {
+        left: 72vw;
+    }
 }
